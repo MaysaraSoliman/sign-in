@@ -9,5 +9,5 @@ getEmailFromLocalStorage()
 
 logout.addEventListener("click", () => {
     localStorage.removeItem("email");
-    window.location.href = "http://127.0.0.1:5500/index.html?email=maysarasoliman54%40gmail.com&password=22";
+    window.open("./index.html");
 })

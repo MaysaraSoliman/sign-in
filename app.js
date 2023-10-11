@@ -39,7 +39,7 @@ signIn.addEventListener("click", (e) => {
         allValid.classList.add("all-valid-active");
         let email = document.querySelector("#email");
         addUserEmailToLocalStorage(email.value)
-        window.location.href = "http://127.0.0.1:5500/profile.html";
+        window.open("./profile.html");
 
     } else {
         allValid.classList.remove("all-valid-active")
