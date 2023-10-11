@@ -1,0 +1,130 @@
+:root {
+    --bg-color: #d3d3d359;
+    --gray-color: #666666;
+    --main-transition: 0.3s;
+    --black-color: #1a1a1a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Mobile Screens */
+@media (min-width: 576px) {
+    .container {
+        /* width: 500px; */
+        width: 560px;
+    }
+}
+
+/* small Screens */
+@media (min-width: 768px) {
+    .container {
+        /* width: 750px; */
+        width: 760px;
+    }
+}
+
+/* medium Screens */
+@media (min-width: 992px) {
+    .container {
+        /* width: 970px; */
+        width: 980px;
+    }
+}
+
+/* small Screens */
+@media (min-width: 1200px) {
+    .container {
+        /* width: 1170px; */
+        width: 1190px;
+    }
+}
+
+/* Start Logout Page Section */
+#logout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#logout .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#logout .container p {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+#logout .container button {
+    border: 1px solid transparent;
+    background-color: #EB4335;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* Start Media Mobile */
+
+/*767px*/
+@media(max-width: 767px) {
+    #logout .container p {
+        font-size: 22px;
+    }
+}
+
+/*400px*/
+@media(max-width: 400px) {
+    #logout .container p {
+        font-size: 18px;
+    }
+}
+
+/*300px*/
+@media(max-width: 300px) {
+    #logout .container p {
+        font-size: 16px;
+    }
+}
+
+/* End Media Mobile */
+
+/* End Logout Page Section */
